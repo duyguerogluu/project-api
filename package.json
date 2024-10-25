@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.0.3",
+    "express": "^4.21.1",
+    "faker": "^6.6.6",
+    "project-api": "file:"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "name": "project-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duyguerogluu/project-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duyguerogluu/project-api/issues"
+  },
+  "homepage": "https://github.com/duyguerogluu/project-api#readme",
+  "description": ""
+}
