@@ -15,6 +15,10 @@ const generateFakeUsers = (num) =>{
         image: faker.image.avatar(),
         isActive: faker.datatype.boolean(),
         Address:faker.address.streetAddress(),
+        location:{
+            latitude: faker.location.latitude(),
+            longitude: faker.location.longitude(),
+        },
     })
    }
    return users;
